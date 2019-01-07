@@ -1,14 +1,24 @@
-import { Component } from '@angular/core';
-import { Platform } from 'ionic-angular';
+import { Component, ViewChild } from '@angular/core';
+import { Platform, Nav } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
-import { HomePage } from '../pages/home/home';
+import { InicioPage } from '../pages/inicio/inicio';
+import { TrilhaPrincipalPage } from '../pages/trilha-principal/trilha-principal';
+
 @Component({
   templateUrl: 'app.html'
 })
+
 export class MyApp {
-  rootPage:any = HomePage;
+  rootPage:any = InicioPage;
+
+  @ViewChild(Nav) public nav: Nav;
+  
+  menuItens = [
+    {itemNome: 'Trilha Principal', componente: TrilhaPrincipalPage.name},
+    {itemNome: 'Minicursos' }
+  ]
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {
@@ -17,6 +27,11 @@ export class MyApp {
       statusBar.styleDefault();
       splashScreen.hide();
     });
+  }
+
+  navegarPara(componente) {
+    console.log(componente);
+    this.nav.push(componente);
   }
 }
 
