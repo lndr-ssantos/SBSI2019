@@ -2,7 +2,6 @@
   <ion-card-header (click)="toogleAccordion()">
     {{ header }}
   </ion-card-header>
-  <ion-card-content #cardContent>
-    {{ conteudo }}
+  <ion-card-content [innerHTML]="conteudo" #cardContent>
   </ion-card-content>
 </ion-card>
