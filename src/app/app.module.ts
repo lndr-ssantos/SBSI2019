@@ -8,6 +8,10 @@ import { MyApp } from './app.component';
 import { InicioPage } from '../pages/inicio/inicio';
 import { TrilhaPrincipalPage } from '../pages/trilha-principal/trilha-principal';
 import { TrilhaPrincipalPageModule } from '../pages/trilha-principal/trilha-principal.module';
+import { MinicursosPageModule } from '../pages/minicursos/minicursos.module';
+import { MinicursosPage } from '../pages/minicursos/minicursos';
+import { ComponentsModule } from '../components/components.module';
+import { AccordionComponent } from '../components/accordion/accordion';
 
 @NgModule({
   declarations: [
@@ -17,14 +21,17 @@ import { TrilhaPrincipalPageModule } from '../pages/trilha-principal/trilha-prin
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
-
+    
+    ComponentsModule,
     TrilhaPrincipalPageModule,
+    MinicursosPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
     InicioPage,
-    TrilhaPrincipalPage
+    TrilhaPrincipalPage,
+    MinicursosPage
   ],
   providers: [
     StatusBar,

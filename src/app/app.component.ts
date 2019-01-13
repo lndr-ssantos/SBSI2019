@@ -5,6 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { InicioPage } from '../pages/inicio/inicio';
 import { TrilhaPrincipalPage } from '../pages/trilha-principal/trilha-principal';
+import { MinicursosPage } from '../pages/minicursos/minicursos';
 
 @Component({
   templateUrl: 'app.html'
@@ -17,7 +18,7 @@ export class MyApp {
   
   menuItens = [
     {itemNome: 'Trilha Principal', componente: TrilhaPrincipalPage.name},
-    {itemNome: 'Minicursos' }
+    {itemNome: 'Minicursos', componente: MinicursosPage.name}
   ]
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {

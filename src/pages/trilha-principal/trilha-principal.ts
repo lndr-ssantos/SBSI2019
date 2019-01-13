@@ -83,6 +83,7 @@ export class TrilhaPrincipalPage {
                                                   - SI inteligentes (agentes inteligentes, algoritmos genéticos, aprendizagem de máquina, mineração de dados, modelos formais, ontologias, raciocínio automatizado, redes neurais, representação de conhecimento) <br>
                                                   - SI para governo (transparência, dados abertos, interoperabilidade, ecossistemas governamentais) <br>
                                                   - Sistemas de apoio à decisão `},
+      
       {header: 'Instruções para Submissão', conteudo: `Os artigos podem ser submetidos para o SBSI 2019 somente na categoria "artigo completo" (full paper) sobre trabalhos de pesquisas já concluídas, com ideias e resultados inovadores, e seguindo metodologia científica adequada. Devem ter entre 7 e 8 páginas (incluindo as figuras, tabelas, diagramas, referências e anexos). 
                                                         Além do artigo, os autores deverão enviar uma ficha resumo descritiva do trabalho de no máximo 2 páginas. Essa ficha será utilizada na primeira etapa de avaliação e determinará se o artigo terá sua submissão aceita para avaliação ou não (o modelo estará disponível no site do SBSI 2019, mas pode ser acessado em: <a href="docs/ficha-submissao-sbsi-2019.doc">ficha-submissao-sbsi-2019</a>). <br>
                                                         Alguns aspectos adicionais devem ser observados: <br>
@@ -113,11 +114,6 @@ export class TrilhaPrincipalPage {
                                           Fábio Rocha (UNIT) e Igor Vasconcelos (UNIT) <br>
                                           Organizadores Locais do SBSI 2019 `}
     ]
-
-    /*this.chamadas = [
-      {header: 'SBSI', conteudo: 'bla bla bla'},
-      {header: 'Datas Importantes', conteudo: 'ble ble ble'}
-    ]*/
   }
 
   ionViewDidLoad() {
