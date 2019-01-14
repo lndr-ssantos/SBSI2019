@@ -11,7 +11,6 @@ import { TrilhaPrincipalPageModule } from '../pages/trilha-principal/trilha-prin
 import { MinicursosPageModule } from '../pages/minicursos/minicursos.module';
 import { MinicursosPage } from '../pages/minicursos/minicursos';
 import { ComponentsModule } from '../components/components.module';
-import { AccordionComponent } from '../components/accordion/accordion';
 
 @NgModule({
   declarations: [
