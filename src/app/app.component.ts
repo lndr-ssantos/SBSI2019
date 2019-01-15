@@ -7,6 +7,7 @@ import { InicioPage } from '../pages/inicio/inicio';
 import { TrilhaPrincipalPage } from '../pages/trilha-principal/trilha-principal';
 import { MinicursosPage } from '../pages/minicursos/minicursos';
 import { WicsiPage } from '../pages/wicsi/wicsi';
+import { CtdsiPage } from '../pages/ctdsi/ctdsi';
 
 @Component({
   templateUrl: 'app.html'
@@ -20,7 +21,8 @@ export class MyApp {
   menuItens = [
     {itemNome: 'Trilha Principal', componente: TrilhaPrincipalPage.name},
     {itemNome: 'Minicursos', componente: MinicursosPage.name},
-    {itemNome: 'WICSI', componente: WicsiPage.name}
+    {itemNome: 'WICSI', componente: WicsiPage.name},
+    {itemNome: 'CTDSI/CTCCSI', componente: CtdsiPage.name}
   ]
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {

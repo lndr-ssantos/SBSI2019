@@ -11,6 +11,10 @@ import { TrilhaPrincipalPageModule } from '../pages/trilha-principal/trilha-prin
 import { MinicursosPageModule } from '../pages/minicursos/minicursos.module';
 import { MinicursosPage } from '../pages/minicursos/minicursos';
 import { ComponentsModule } from '../components/components.module';
+import { WicsiPageModule } from '../pages/wicsi/wicsi.module';
+import { WicsiPage } from '../pages/wicsi/wicsi';
+import { CtdsiPageModule } from '../pages/ctdsi/ctdsi.module';
+import { CtdsiPage } from '../pages/ctdsi/ctdsi';
 
 @NgModule({
   declarations: [
@@ -23,14 +27,18 @@ import { ComponentsModule } from '../components/components.module';
     
     ComponentsModule,
     TrilhaPrincipalPageModule,
-    MinicursosPageModule
+    MinicursosPageModule,
+    WicsiPageModule,
+    CtdsiPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
     InicioPage,
     TrilhaPrincipalPage,
-    MinicursosPage
+    MinicursosPage,
+    WicsiPage,
+    CtdsiPage
   ],
   providers: [
     StatusBar,
