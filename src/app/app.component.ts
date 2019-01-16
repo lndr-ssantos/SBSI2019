@@ -8,6 +8,7 @@ import { TrilhaPrincipalPage } from '../pages/trilha-principal/trilha-principal'
 import { MinicursosPage } from '../pages/minicursos/minicursos';
 import { WicsiPage } from '../pages/wicsi/wicsi';
 import { CtdsiPage } from '../pages/ctdsi/ctdsi';
+import { EisiPage } from '../pages/eisi/eisi';
 
 @Component({
   templateUrl: 'app.html'
@@ -22,7 +23,8 @@ export class MyApp {
     {itemNome: 'Trilha Principal', componente: TrilhaPrincipalPage.name},
     {itemNome: 'Minicursos', componente: MinicursosPage.name},
     {itemNome: 'WICSI', componente: WicsiPage.name},
-    {itemNome: 'CTDSI/CTCCSI', componente: CtdsiPage.name}
+    {itemNome: 'CTDSI/CTCCSI', componente: CtdsiPage.name},
+    {itemNome: 'EISI', componente: EisiPage.name}
   ]
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {

@@ -15,6 +15,8 @@ import { WicsiPageModule } from '../pages/wicsi/wicsi.module';
 import { WicsiPage } from '../pages/wicsi/wicsi';
 import { CtdsiPageModule } from '../pages/ctdsi/ctdsi.module';
 import { CtdsiPage } from '../pages/ctdsi/ctdsi';
+import { EisiPageModule } from '../pages/eisi/eisi.module';
+import { EisiPage } from '../pages/eisi/eisi';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,8 @@ import { CtdsiPage } from '../pages/ctdsi/ctdsi';
     TrilhaPrincipalPageModule,
     MinicursosPageModule,
     WicsiPageModule,
-    CtdsiPageModule
+    CtdsiPageModule,
+    EisiPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -38,7 +41,8 @@ import { CtdsiPage } from '../pages/ctdsi/ctdsi';
     TrilhaPrincipalPage,
     MinicursosPage,
     WicsiPage,
-    CtdsiPage
+    CtdsiPage,
+    EisiPage
   ],
   providers: [
     StatusBar,
