@@ -21,6 +21,8 @@ import { FesiPageModule } from '../pages/fesi/fesi.module';
 import { FesiPage } from '../pages/fesi/fesi';
 import { GrandsiBrPageModule } from '../pages/grandsi-br/grandsi-br.module';
 import { GrandsiBrPage } from '../pages/grandsi-br/grandsi-br';
+import { WtdsiPageModule } from '../pages/wtdsi/wtdsi.module';
+import { WtdsiPage } from '../pages/wtdsi/wtdsi';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,8 @@ import { GrandsiBrPage } from '../pages/grandsi-br/grandsi-br';
     CtdsiPageModule,
     EisiPageModule,
     FesiPageModule,
-    GrandsiBrPageModule
+    GrandsiBrPageModule,
+    WtdsiPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -50,7 +53,8 @@ import { GrandsiBrPage } from '../pages/grandsi-br/grandsi-br';
     CtdsiPage,
     EisiPage,
     FesiPage,
-    GrandsiBrPage
+    GrandsiBrPage,
+    WtdsiPage
   ],
   providers: [
     StatusBar,

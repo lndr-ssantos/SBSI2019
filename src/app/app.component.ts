@@ -11,6 +11,7 @@ import { CtdsiPage } from '../pages/ctdsi/ctdsi';
 import { EisiPage } from '../pages/eisi/eisi';
 import { FesiPage } from '../pages/fesi/fesi';
 import { GrandsiBrPage } from '../pages/grandsi-br/grandsi-br';
+import { WtdsiPage } from '../pages/wtdsi/wtdsi';
 
 @Component({
   templateUrl: 'app.html'
@@ -28,7 +29,8 @@ export class MyApp {
     {itemNome: 'CTDSI/CTCCSI', componente: CtdsiPage.name},
     {itemNome: 'EISI', componente: EisiPage.name},
     {itemNome: 'FESI', componente: FesiPage.name},
-    {itemNome: 'GRANDSI-BR', componente: GrandsiBrPage.name}
+    {itemNome: 'GRANDSI-BR', componente: GrandsiBrPage.name},
+    {itemNome: 'WTDSI', componente: WtdsiPage.name},
   ]
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
