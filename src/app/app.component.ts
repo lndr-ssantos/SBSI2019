@@ -9,6 +9,7 @@ import { MinicursosPage } from '../pages/minicursos/minicursos';
 import { WicsiPage } from '../pages/wicsi/wicsi';
 import { CtdsiPage } from '../pages/ctdsi/ctdsi';
 import { EisiPage } from '../pages/eisi/eisi';
+import { FesiPage } from '../pages/fesi/fesi';
 
 @Component({
   templateUrl: 'app.html'
@@ -24,7 +25,8 @@ export class MyApp {
     {itemNome: 'Minicursos', componente: MinicursosPage.name},
     {itemNome: 'WICSI', componente: WicsiPage.name},
     {itemNome: 'CTDSI/CTCCSI', componente: CtdsiPage.name},
-    {itemNome: 'EISI', componente: EisiPage.name}
+    {itemNome: 'EISI', componente: EisiPage.name},
+    {itemNome: 'FESI', componente: FesiPage.name}
   ]
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {

@@ -17,6 +17,8 @@ import { CtdsiPageModule } from '../pages/ctdsi/ctdsi.module';
 import { CtdsiPage } from '../pages/ctdsi/ctdsi';
 import { EisiPageModule } from '../pages/eisi/eisi.module';
 import { EisiPage } from '../pages/eisi/eisi';
+import { FesiPageModule } from '../pages/fesi/fesi.module';
+import { FesiPage } from '../pages/fesi/fesi';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,8 @@ import { EisiPage } from '../pages/eisi/eisi';
     MinicursosPageModule,
     WicsiPageModule,
     CtdsiPageModule,
-    EisiPageModule
+    EisiPageModule,
+    FesiPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -42,7 +45,8 @@ import { EisiPage } from '../pages/eisi/eisi';
     MinicursosPage,
     WicsiPage,
     CtdsiPage,
-    EisiPage
+    EisiPage,
+    FesiPage
   ],
   providers: [
     StatusBar,
