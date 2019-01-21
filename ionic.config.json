@@ -1,5 +1,7 @@
 {
   "name": "SBSI_App",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }
