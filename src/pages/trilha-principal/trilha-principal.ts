@@ -3,13 +3,6 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 import { Chamada } from '../../modelos/chamada'
 
-/**
- * Generated class for the TrilhaPrincipalPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-
 @IonicPage()
 @Component({
   selector: 'page-trilha-principal',
@@ -115,9 +108,4 @@ export class TrilhaPrincipalPage {
                                           Organizadores Locais do SBSI 2019 `}
     ]
   }
-
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad TrilhaPrincipalPage');
-  }
-
 }

@@ -3,13 +3,6 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 import { Chamada } from '../../modelos/chamada';
 
-/**
- * Generated class for the WicsiPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-
 @IonicPage()
 @Component({
   selector: 'page-wicsi',
@@ -65,9 +58,4 @@ export class WicsiPage {
                                           Adolfo Pinto Guimarães (UNIT) - adolfo[dot]pinto[at]souunit[dot]com[dot]br`}
     ]
   }
-
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad WicsiPage');
-  }
-
 }

@@ -1,13 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { Chamada } from '../../modelos/chamada';
 
-/**
- * Generated class for the EisiPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import { Chamada } from '../../modelos/chamada';
 
 @IonicPage()
 @Component({
@@ -88,9 +82,4 @@ export class EisiPage {
                                         Fabio Santos Batista (UNIT) - fabio_bastista[at]unit[dot]br `}
     ]
   }
-
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad EisiPage');
-  }
-
 }

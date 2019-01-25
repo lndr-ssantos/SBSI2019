@@ -12,6 +12,7 @@ import { EisiPage } from '../pages/eisi/eisi';
 import { FesiPage } from '../pages/fesi/fesi';
 import { GrandsiBrPage } from '../pages/grandsi-br/grandsi-br';
 import { WtdsiPage } from '../pages/wtdsi/wtdsi';
+import { CodesiiPage } from '../pages/codesii/codesii';
 
 @Component({
   templateUrl: 'app.html'
@@ -31,6 +32,7 @@ export class MyApp {
     {itemNome: 'FESI', componente: FesiPage.name},
     {itemNome: 'GRANDSI-BR', componente: GrandsiBrPage.name},
     {itemNome: 'WTDSI', componente: WtdsiPage.name},
+    {itemNome: 'CODESII', componente: CodesiiPage.name}
   ]
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
@@ -43,7 +45,6 @@ export class MyApp {
   }
 
   navegarPara(componente) {
-    console.log(componente);
     this.nav.push(componente);
   }
 }

@@ -1,13 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { Chamada } from '../../modelos/chamada';
 
-/**
- * Generated class for the FesiPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import { Chamada } from '../../modelos/chamada';
 
 @IonicPage()
 @Component({
@@ -40,9 +34,4 @@ export class FesiPage {
                                         Fernanda Gomes (UNIT)`}
     ]
   }
-
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad FesiPage');
-  }
-
 }

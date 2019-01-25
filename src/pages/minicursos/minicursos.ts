@@ -3,13 +3,6 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 import { Chamada } from '../../modelos/chamada';
 
-/**
- * Generated class for the MinicursosPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-
 @IonicPage()
 @Component({
   selector: 'page-minicursos',
@@ -89,9 +82,4 @@ export class MinicursosPage {
                                         Pablo Marques Menezes (UNIT) – pmenezes[dot]aju[at]gmail[dot]com `}
     ]
   }
-
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad MinicursosPage');
-  }
-
 }

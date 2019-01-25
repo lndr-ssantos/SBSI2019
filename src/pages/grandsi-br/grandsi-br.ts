@@ -1,13 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { Chamada } from '../../modelos/chamada';
 
-/**
- * Generated class for the GrandsiBrPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import { Chamada } from '../../modelos/chamada';
 
 @IonicPage()
 @Component({
@@ -45,9 +39,4 @@ export class GrandsiBrPage {
                                         Clodis Boscarioli (Unioeste) – boscarioli[at]gmail[dot]com`}
     ]
   }
-
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad GrandsiBrPage');
-  }
-
 }
