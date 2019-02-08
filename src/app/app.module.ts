@@ -25,6 +25,7 @@ import { WtdsiPageModule } from '../pages/wtdsi/wtdsi.module';
 import { WtdsiPage } from '../pages/wtdsi/wtdsi';
 import { CodesiiPageModule } from '../pages/codesii/codesii.module';
 import { CodesiiPage } from '../pages/codesii/codesii';
+import { LaunchNavigator } from '@ionic-native/launch-navigator'
 
 @NgModule({
   declarations: [
@@ -63,6 +64,7 @@ import { CodesiiPage } from '../pages/codesii/codesii';
   providers: [
     StatusBar,
     SplashScreen,
+    LaunchNavigator,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
