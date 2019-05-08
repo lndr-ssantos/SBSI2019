@@ -31,7 +31,7 @@ export class PrimeiroDiaPage {
                                                 
                                                 14:30 - 16:00 <br>
                                                 &nbsp; &nbsp; &nbsp;- Laboratório 1: Minicurso 1 (TRM)<br>
-                                                &nbsp; &nbsp; &nbsp;- Laboratório 2: Minicurso 1 (SoIS)<br>
+                                                &nbsp; &nbsp; &nbsp;- Laboratório 2: Minicurso 2 (SoIS)<br>
                                                 &nbsp; &nbsp; &nbsp;- Bloco G - Sala 4: EISI (incluindo ferramentas) <br>
                                                 &nbsp; &nbsp; &nbsp;- Bloco G - Sala 6: Trilha Principal (Sessão Técnica 3) <br>
                                                 &nbsp; &nbsp; &nbsp;- Bloco G - Sala 18: WICSI (Sessão 3) <br><br>
@@ -45,7 +45,7 @@ export class PrimeiroDiaPage {
                                                 &nbsp; &nbsp; &nbsp;- Bloco G - Sala 18: WICSI (Sessão 4) <br><br>
                                                 
                                                 16:30 - 19:00 <br>
-                                                &nbsp; &nbsp; &nbsp;- Laboratório 1: Minicurso 2 (TRM)<br>
+                                                &nbsp; &nbsp; &nbsp;- Laboratório 1: Minicurso 1 (TRM)<br>
                                                 &nbsp; &nbsp; &nbsp;- Laboratório 2: Minicurso 2 (SoIS)<br>
                                                 
                                                 19:00 - 21:00 <br>
@@ -56,8 +56,8 @@ export class PrimeiroDiaPage {
                                                           
                                                           1 - Kairós: Predictive Model Based On Context Histories For Time Management In Projects <br>
                                                           &nbsp; &nbsp; &nbsp;- Felipe Rodrigues, <br>
-                                                          &nbsp; &nbsp; &nbsp;- Alexsandro Filippetto <br>
-                                                          &nbsp; &nbsp; &nbsp;-  Jorge Luis Barbosa (UNISINOS) <br><br>
+                                                          &nbsp; &nbsp; &nbsp;- Alexsandro Filippetto, <br>
+                                                          &nbsp; &nbsp; &nbsp;- Jorge Luis Barbosa (UNISINOS) <br><br>
 
                                                           2 - Level UP: Mapping Hard Skills of IT Practitioners to support the Project Management <br>
                                                           &nbsp; &nbsp; &nbsp;- Vanessa Milon (Fundação Paulo Feitosa), <br>
@@ -107,8 +107,8 @@ export class PrimeiroDiaPage {
                                                           &nbsp; &nbsp; &nbsp;- Sylvio Barbon Jr. (UEL) <br><br>
                                                           
                                                           2 - LifeReview: A model for monitoring people with anxiety disorder <br>
-                                                          &nbsp; &nbsp; &nbsp;- Leonardo Paula,, <br>
-                                                          &nbsp; &nbsp; &nbsp;- Jorge Barbosa (UNISINOS), <br><br>
+                                                          &nbsp; &nbsp; &nbsp;- Leonardo Paula, <br>
+                                                          &nbsp; &nbsp; &nbsp;- Jorge Barbosa (UNISINOS) <br><br>
 
                                                           3 - Software Requirements for the Design of Gamified Applications for Time Management and Tasks for Children and Adolescents with ADHD <br>	
                                                           &nbsp; &nbsp; &nbsp;- Tássio Gomes (UFAL), <br> 

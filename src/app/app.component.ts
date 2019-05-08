@@ -5,6 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { InicioPage } from '../pages/inicio/inicio';
 import { PrimeiroDiaPage } from '../pages/primeiro-dia/primeiro-dia';
+import { SegundoDiaPage } from '../pages/segundo-dia/segundo-dia'
 
 @Component({
   templateUrl: 'app.html'
@@ -16,7 +17,8 @@ export class MyApp {
   @ViewChild(Nav) public nav: Nav;
   
   menuItens = [
-    {itemNome: '1º dia - 20/05', componente: PrimeiroDiaPage.name}
+    {itemNome: '1º dia - 20/05', componente: PrimeiroDiaPage.name},
+    {itemNome: '2º dia - 21/05', componente: SegundoDiaPage.name}
   ]
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
