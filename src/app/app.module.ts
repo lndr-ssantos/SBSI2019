@@ -6,25 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { InicioPage } from '../pages/inicio/inicio';
-import { TrilhaPrincipalPage } from '../pages/trilha-principal/trilha-principal';
-import { TrilhaPrincipalPageModule } from '../pages/trilha-principal/trilha-principal.module';
-import { MinicursosPageModule } from '../pages/minicursos/minicursos.module';
-import { MinicursosPage } from '../pages/minicursos/minicursos';
 import { ComponentsModule } from '../components/components.module';
-import { WicsiPageModule } from '../pages/wicsi/wicsi.module';
-import { WicsiPage } from '../pages/wicsi/wicsi';
-import { CtdsiPageModule } from '../pages/ctdsi/ctdsi.module';
-import { CtdsiPage } from '../pages/ctdsi/ctdsi';
-import { EisiPageModule } from '../pages/eisi/eisi.module';
-import { EisiPage } from '../pages/eisi/eisi';
-import { FesiPageModule } from '../pages/fesi/fesi.module';
-import { FesiPage } from '../pages/fesi/fesi';
-import { GrandsiBrPageModule } from '../pages/grandsi-br/grandsi-br.module';
-import { GrandsiBrPage } from '../pages/grandsi-br/grandsi-br';
-import { WtdsiPageModule } from '../pages/wtdsi/wtdsi.module';
-import { WtdsiPage } from '../pages/wtdsi/wtdsi';
-import { CodesiiPageModule } from '../pages/codesii/codesii.module';
-import { CodesiiPage } from '../pages/codesii/codesii';
 import { PrimeiroDiaPageModule } from '../pages/primeiro-dia/primeiro-dia.module'
 import { PrimeiroDiaPage } from '../pages/primeiro-dia/primeiro-dia'
 import { LaunchNavigator } from '@ionic-native/launch-navigator'
@@ -39,30 +21,12 @@ import { LaunchNavigator } from '@ionic-native/launch-navigator'
     IonicModule.forRoot(MyApp),
     
     ComponentsModule,
-    TrilhaPrincipalPageModule,
-    MinicursosPageModule,
-    WicsiPageModule,
-    CtdsiPageModule,
-    EisiPageModule,
-    FesiPageModule,
-    GrandsiBrPageModule,
-    WtdsiPageModule,
-    CodesiiPageModule,
     PrimeiroDiaPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
     InicioPage,
-    TrilhaPrincipalPage,
-    MinicursosPage,
-    WicsiPage,
-    CtdsiPage,
-    EisiPage,
-    FesiPage,
-    GrandsiBrPage,
-    WtdsiPage,
-    CodesiiPage,
     PrimeiroDiaPage,
   ],
   providers: [
