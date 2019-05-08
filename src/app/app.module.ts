@@ -25,6 +25,8 @@ import { WtdsiPageModule } from '../pages/wtdsi/wtdsi.module';
 import { WtdsiPage } from '../pages/wtdsi/wtdsi';
 import { CodesiiPageModule } from '../pages/codesii/codesii.module';
 import { CodesiiPage } from '../pages/codesii/codesii';
+import { PrimeiroDiaPageModule } from '../pages/primeiro-dia/primeiro-dia.module'
+import { PrimeiroDiaPage } from '../pages/primeiro-dia/primeiro-dia'
 import { LaunchNavigator } from '@ionic-native/launch-navigator'
 
 @NgModule({
@@ -45,7 +47,8 @@ import { LaunchNavigator } from '@ionic-native/launch-navigator'
     FesiPageModule,
     GrandsiBrPageModule,
     WtdsiPageModule,
-    CodesiiPageModule
+    CodesiiPageModule,
+    PrimeiroDiaPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -59,7 +62,8 @@ import { LaunchNavigator } from '@ionic-native/launch-navigator'
     FesiPage,
     GrandsiBrPage,
     WtdsiPage,
-    CodesiiPage
+    CodesiiPage,
+    PrimeiroDiaPage,
   ],
   providers: [
     StatusBar,

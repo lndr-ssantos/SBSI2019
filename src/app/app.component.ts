@@ -13,6 +13,7 @@ import { FesiPage } from '../pages/fesi/fesi';
 import { GrandsiBrPage } from '../pages/grandsi-br/grandsi-br';
 import { WtdsiPage } from '../pages/wtdsi/wtdsi';
 import { CodesiiPage } from '../pages/codesii/codesii';
+import { PrimeiroDiaPage } from '../pages/primeiro-dia/primeiro-dia';
 
 @Component({
   templateUrl: 'app.html'
@@ -24,6 +25,7 @@ export class MyApp {
   @ViewChild(Nav) public nav: Nav;
   
   menuItens = [
+    {itemNome: '1º dia - 20/05', componente: PrimeiroDiaPage.name},
     {itemNome: 'Trilha Principal', componente: TrilhaPrincipalPage.name},
     {itemNome: 'Minicursos', componente: MinicursosPage.name},
     {itemNome: 'WICSI', componente: WicsiPage.name},
