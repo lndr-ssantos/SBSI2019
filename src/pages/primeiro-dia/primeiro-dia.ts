@@ -133,7 +133,7 @@ export class PrimeiroDiaPage {
                                                           &nbsp; &nbsp; &nbsp;- Leonardo Augusto Sápiras, <br> 
                                                           &nbsp; &nbsp; &nbsp;- Rodrigo Antônio Weber (Faculdades Integradas de Taquara) <br><br>`},
       
-      {header: 'Programação Detalhada - EISI', conteudo: `Sessão 1 - Ferramentas <br>      
+      {header: 'Programação - EISI', conteudo: `Sessão 1 - Ferramentas <br>      
                                                           - Duca, um aplicativo civil colaborativo para alavancar a educação - Alan Passos, John Santos, Renan Santos, André Nascimento, 
                                                           Methanias Colaço Júnior, Abelardo Mota, Eduardo Cortes <br>
                                                           - SF2: Um aplicativo para identificar espécies de peixes do Baixo São Francisco - Ítalo Lima, Henrique Couto, André Almeida, 
@@ -169,8 +169,7 @@ export class PrimeiroDiaPage {
                                                           - Automatizando processo de votação do Circuito Penedo de Cinema através do uso de aplicativo móvel - José M. C. Gomes, Henrique C. Melo, 
                                                           Daniel G. C. Pereira,Ítalo J. de M.a Lima, André A. Silva, Paulo R. de S. e Silva Filho`},
 
-      {header: 'Programação Detalhada - WICSI', conteudo: `(11:00 - 11:10) Abertura <br><br>
-                                                          
+      {header: 'Programação - WICSI', conteudo: `(11:00 - 11:10) Abertura <br><br>                                                          
                                                           Sessão Técnica 1 <br>
                                                           (11:10 - 11:30) Proposta de adequação da arquitetura do AVA Openredu para suporte a técnicas de análise quantitativa de dados educacionais <br>
                                                           &nbsp; &nbsp; &nbsp;- Juliano Cezar Teles Vaz, <br>

@@ -9,6 +9,10 @@ import { InicioPage } from '../pages/inicio/inicio';
 import { ComponentsModule } from '../components/components.module';
 import { PrimeiroDiaPageModule } from '../pages/primeiro-dia/primeiro-dia.module'
 import { PrimeiroDiaPage } from '../pages/primeiro-dia/primeiro-dia'
+import { SegundoDiaPageModule } from '../pages/segundo-dia/segundo-dia.module'
+import { SegundoDiaPage } from '../pages/segundo-dia/segundo-dia'
+import { TerceiroDiaPageModule } from '../pages/terceiro-dia/terceiro-dia.module'
+import { TerceiroDiaPage } from '../pages/terceiro-dia/terceiro-dia'
 import { LaunchNavigator } from '@ionic-native/launch-navigator'
 
 @NgModule({
@@ -21,13 +25,17 @@ import { LaunchNavigator } from '@ionic-native/launch-navigator'
     IonicModule.forRoot(MyApp),
     
     ComponentsModule,
-    PrimeiroDiaPageModule
+    PrimeiroDiaPageModule,
+    SegundoDiaPageModule,
+    TerceiroDiaPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
     InicioPage,
     PrimeiroDiaPage,
+    SegundoDiaPage,
+    TerceiroDiaPage
   ],
   providers: [
     StatusBar,
