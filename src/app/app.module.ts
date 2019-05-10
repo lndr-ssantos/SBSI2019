@@ -13,6 +13,8 @@ import { SegundoDiaPageModule } from '../pages/segundo-dia/segundo-dia.module'
 import { SegundoDiaPage } from '../pages/segundo-dia/segundo-dia'
 import { TerceiroDiaPageModule } from '../pages/terceiro-dia/terceiro-dia.module'
 import { TerceiroDiaPage } from '../pages/terceiro-dia/terceiro-dia'
+import { QuartoDiaPageModule } from '../pages/quarto-dia/quarto-dia.module'
+import { QuartoDiaPage } from '../pages/quarto-dia/quarto-dia'
 import { LaunchNavigator } from '@ionic-native/launch-navigator'
 
 @NgModule({
@@ -27,7 +29,8 @@ import { LaunchNavigator } from '@ionic-native/launch-navigator'
     ComponentsModule,
     PrimeiroDiaPageModule,
     SegundoDiaPageModule,
-    TerceiroDiaPageModule
+    TerceiroDiaPageModule,
+    QuartoDiaPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -35,7 +38,8 @@ import { LaunchNavigator } from '@ionic-native/launch-navigator'
     InicioPage,
     PrimeiroDiaPage,
     SegundoDiaPage,
-    TerceiroDiaPage
+    TerceiroDiaPage,
+    QuartoDiaPage
   ],
   providers: [
     StatusBar,

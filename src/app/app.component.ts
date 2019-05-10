@@ -7,6 +7,7 @@ import { InicioPage } from '../pages/inicio/inicio';
 import { PrimeiroDiaPage } from '../pages/primeiro-dia/primeiro-dia';
 import { SegundoDiaPage } from '../pages/segundo-dia/segundo-dia'
 import { TerceiroDiaPage } from '../pages/terceiro-dia/terceiro-dia'
+import { QuartoDiaPage } from '../pages/quarto-dia/quarto-dia';
 
 @Component({
   templateUrl: 'app.html'
@@ -20,7 +21,8 @@ export class MyApp {
   menuItens = [
     {itemNome: '1º dia - 20/05', componente: PrimeiroDiaPage.name},
     {itemNome: '2º dia - 21/05', componente: SegundoDiaPage.name},
-    {itemNome: '3º dia - 22/05', componente: TerceiroDiaPage}
+    {itemNome: '3º dia - 22/05', componente: TerceiroDiaPage.name},
+    {itemNome: '4º dia - 23/05', componente: QuartoDiaPage.name}
   ]
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
