@@ -51,8 +51,8 @@ export class PrimeiroDiaPage {
                                                 19:00 - 21:00 <br>
                                                 &nbsp; &nbsp; &nbsp;- Auditório Bloco G - Abertura do SBSI 2019 + Apresentação Cultural<br>` },
 
-      {header: 'Detalhes das Sessões Técnicas', conteudo: `Sessão Técnica 1 (ST1) - Project Management Aspects <br>
-                                                          Chair: Renata Araujo (Universidade Presbiteriana Mackenzie) <br><br>
+      {header: 'Detalhes das Sessões Técnicas', conteudo: `<b>Sessão Técnica 1 (ST1) - Project Management Aspects</b> <br>
+                                                          <b>Chair:</b> Renata Araujo (Universidade Presbiteriana Mackenzie) <br><br>
                                                           
                                                           1 - Kairós: Predictive Model Based On Context Histories For Time Management In Projects <br>
                                                           &nbsp; &nbsp; &nbsp;- Felipe Rodrigues, <br>
@@ -73,8 +73,8 @@ export class PrimeiroDiaPage {
                                                           &nbsp; &nbsp; &nbsp;-  Fabio Rocha (UNIT), <br>
                                                           &nbsp; &nbsp; &nbsp;- Rodrigo Santos (UNIRIO) <br><br>
                                                           
-                                                          Sessão Técnica 2 (ST2) - Decision Support Systems (1): <br>
-                                                          Chair: Clodis Boscarioli (UNIOESTE) <br><br>
+                                                          <b>Sessão Técnica 2 (ST2) - Decision Support Systems (1):</b> <br>
+                                                          <b>Chair:</b> Clodis Boscarioli (UNIOESTE) <br><br>
                                                           
                                                           1 - Location-Allocation of Police Vehicles under a Multi-period Perspective <br>
                                                           &nbsp; &nbsp; &nbsp;- Amarildo de Lucena (UFRPE), <br>
@@ -97,8 +97,8 @@ export class PrimeiroDiaPage {
                                                           &nbsp; &nbsp; &nbsp;- Thiago Inocêncio (UFABC), <br>
                                                           &nbsp; &nbsp; &nbsp;- Gustavo Gonzales (UFABC) <br><br>
                                                           
-                                                          Sessão Técnica 3 (ST3) - Requirements and Models: <br>
-                                                          Chair: Rita Maciel (UFBA) <br><br>
+                                                          <b>Sessão Técnica 3 (ST3) - Requirements and Models:</b> <br>
+                                                          <b>Chair:</b> Rita Maciel (UFBA) <br><br>
                                                           
                                                           1 - Improvements on diagnostic assessment questionnaires of Maturity Level Management with feature selection <br>
                                                           &nbsp; &nbsp; &nbsp;- Bruno Prece, <br>
@@ -117,8 +117,8 @@ export class PrimeiroDiaPage {
                                                           &nbsp; &nbsp; &nbsp;- Patrick Brito (UFAL), <br>
                                                           &nbsp; &nbsp; &nbsp;- Ig Bittencourt (UFAL) <br><br>
                                                           
-                                                          Sessão Técnica 4 (ST4) - Sentiment Analysis: <br>
-                                                          Chair: José Viterbo (UFF) <br><br>
+                                                          <b>Sessão Técnica 4 (ST4) - Sentiment Analysis:</b> <br>
+                                                          <b>Chair:</b> José Viterbo (UFF) <br><br>
                                                           
                                                           1 - Enrichment of dictionaries to improve the automatic classification of feelings in postings related to the use of systems <br>
                                                           &nbsp; &nbsp; &nbsp;- Afonso Lima, <br>

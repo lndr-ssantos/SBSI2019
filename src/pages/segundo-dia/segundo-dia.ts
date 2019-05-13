@@ -46,8 +46,8 @@ export class SegundoDiaPage {
                                                 &nbsp; &nbsp; &nbsp;- Laboratório 1: Minicurso 3 (ECI)<br>
                                                 &nbsp; &nbsp; &nbsp;- Laboratório 2: Minicurso 4 (AMCI)<br>`},
 
-      {header: 'Detalhes das Sessões Técnicas', conteudo: `Sessão Técnica 5 (ST5) - Decision Support Systems (2): <br>
-                                                          Chair: Sylvio Barbon Jr. (UEL) <br><br>
+      {header: 'Detalhes das Sessões Técnicas', conteudo: `<b>Sessão Técnica 5 (ST5) - Decision Support Systems (2):</b> <br>
+                                                          <b>Chair:</b> Sylvio Barbon Jr. (UEL) <br><br>
                                               
                                                           1 - Decision Support System for Precision Livestock: Machine Learning Prediction- Based Module for Stocking Rate Adjustment <br>
                                                           &nbsp; &nbsp; &nbsp;- Leonardo Schulte (UNIPAMPA), <br>
@@ -70,8 +70,8 @@ export class SegundoDiaPage {
                                                           &nbsp; &nbsp; &nbsp;- Marcelo Fornazin (UFF & UNIRIO), <br> 
                                                           &nbsp; &nbsp; &nbsp;- Rodrigo Santos (UNIRIO) <br><br>
                                                           
-                                                          Sessão Técnica 6 (ST6) - Software Engineering for Information Systems: <br>
-                                                          Chair: Rita Maciel (UFBA) <br><br>
+                                                          <b>Sessão Técnica 6 (ST6) - Software Engineering for Information Systems:</b> <br>
+                                                          <b>Chair:</b> Rita Maciel (UFBA) <br><br>
                                                           
                                                           1 - Reducing the execution time of unit tests of smart contracts in blockchain platforms <br>
                                                           &nbsp; &nbsp; &nbsp;- Hallan Medeiros, <br>
@@ -92,8 +92,8 @@ export class SegundoDiaPage {
                                                           &nbsp; &nbsp; &nbsp;- Rodrigo Spínola (UNIFACS & UESB), <br>
                                                           &nbsp; &nbsp; &nbsp;- Manoel Mendonça (UFBA) <br><br>
                                                           
-                                                          Sessão Técnica 7 (ST7) - Knowledge and Information Discovery (1): <br>
-                                                          Chair: Flavio Horita (UFABC) <br><br>
+                                                          <b>Sessão Técnica 7 (ST7) - Knowledge and Information Discovery (1):</b> <br>
+                                                          <b>Chair:</b> Flavio Horita (UFABC) <br><br>
                                                           
                                                           1 - Linguistic Pattern Mining for Data Analysis in Microblog Texts using Word Embeddings <br>
                                                           &nbsp; &nbsp; &nbsp;- Danielly Sorato,  <br>
@@ -109,8 +109,8 @@ export class SegundoDiaPage {
                                                           &nbsp; &nbsp; &nbsp;- André Ruela, <br>
                                                           &nbsp; &nbsp; &nbsp;- Karina Delgado (USP) <br><br>
                                                           
-                                                          Sessão Técnica 8 (ST8) - Social Media and Society: <br>
-                                                          Chair: Methanias Colaço Júnior (UFS) <br><br>
+                                                          <b>Sessão Técnica 8 (ST8) - Social Media and Society:</b> <br>
+                                                          <b>Chair:</b> Methanias Colaço Júnior (UFS) <br><br>
                                                           
                                                           1 - Deciding among Fake, Satirical, Objective and Legitimate news <br>
                                                           &nbsp; &nbsp; &nbsp;- Janaína Morais, <br>

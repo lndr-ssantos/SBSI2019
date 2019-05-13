@@ -55,7 +55,7 @@ export class QuartoDiaPage {
                                                           &nbsp; &nbsp; &nbsp;- Elder Cirilo (UFSJ), <br>
                                                           &nbsp; &nbsp; &nbsp;- Eduardo Figueiredo (UFMG) <br><br>
 
-                                                          2 - .	Hermes: A Natural Language Interface Model for Software Transformation <br>
+                                                          2 - Hermes: A Natural Language Interface Model for Software Transformation <br>
                                                           &nbsp; &nbsp; &nbsp;- Michael Chagas (UNISINOS), <br>
                                                           &nbsp; &nbsp; &nbsp;- Kleinner Farias (UNISINOS), <br>
                                                           &nbsp; &nbsp; &nbsp;- Lucian Gonçales (UNISINOS), <br>
@@ -128,7 +128,7 @@ export class QuartoDiaPage {
                                                           1 - Exploring Deep Features and Transfer Learning for Plant Species Recognitio <br>
                                                           &nbsp; &nbsp; &nbsp;- Marcondes Feitoza, <br>
                                                           &nbsp; &nbsp; &nbsp;- Wanderson Silva, <br>
-                                                          &nbsp; &nbsp; &nbsp;-  Rodrigo Calumby (UEFS) <br><br>
+                                                          &nbsp; &nbsp; &nbsp;- Rodrigo Calumby (UEFS) <br><br>
                                                           
                                                           2 - Impact analysis of model-based development in avionics software production <br>
                                                           &nbsp; &nbsp; &nbsp;- Gustavo Mottin, <br>
