@@ -14,8 +14,8 @@ export class QuintoDiaPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.chamadas = [
       {header: 'Programação do Dia', conteudo: `09:00 - 10:30 <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 6: Trilha Principal (Sessão Técnica 21) <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 4: Trilha Principal (Sessão Técnica 22) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 46: Trilha Principal (Sessão Técnica 21) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 24: Trilha Principal (Sessão Técnica 22) <br>
                                                 
                                                 10:30 - 11:00 <br>
                                                 &nbsp; &nbsp; &nbsp;- Coffe Break <br><br>
@@ -24,15 +24,15 @@ export class QuintoDiaPage {
                                                 &nbsp; &nbsp; &nbsp;- Almoço <br><br>
                                                 
                                                 14:30 - 16:00 <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 6: Trilha Principal (Sessão Técnica 23) <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 4: Trilha Principal (Sessão Técnica 24) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 46: Trilha Principal (Sessão Técnica 23) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 24: Trilha Principal (Sessão Técnica 24) <br>
                                                 
                                                 16:00 - 16:30 <br>
                                                 &nbsp; &nbsp; &nbsp;- Coffe Break <br><br>
                                                 
                                                 16:30 - 18:00 <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 6: Trilha Principal (Sessão Técnica 25) <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 4: Trilha Principal (Sessão Técnica 26) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 46: Trilha Principal (Sessão Técnica 25) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 24: Trilha Principal (Sessão Técnica 26) <br>
 
                                                 18:00 - 19:00 <br>
                                                 &nbsp; &nbsp; &nbsp;- Auditório do Bloco G - Encerramento do SBSI 2019`},

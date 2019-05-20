@@ -14,16 +14,16 @@ export class TerceiroDiaPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.chamadas = [
       {header: 'Programação do dia', conteudo: `09:00 - 10:30 <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 6: Trilha Principal (Sessão Técnica 9) <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 4: Trilha Principal (Sessão Técnica 10) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 36: Trilha Principal (Sessão Técnica 9) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 25: Trilha Principal (Sessão Técnica 10) <br>
                                                 &nbsp; &nbsp; &nbsp;- Bloco G - Sala 60: Master Class 2 - Design Science Research (Prof. Mariano Pimentel) <br><br>
                                                 
                                                 10:30 - 11:00 <br>
                                                 &nbsp; &nbsp; &nbsp;- Coffe Break <br><br>
                                                 
                                                 11:00 - 12:30 <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 6: Trilha Principal (Sessão Técnica 11) <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 4: Trilha Principal (Sessão Técnica 12) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 36: Trilha Principal (Sessão Técnica 11) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 25: Trilha Principal (Sessão Técnica 12) <br>
                                                 &nbsp; &nbsp; &nbsp;- Bloco G - Sala 18: CTDSI/CTCCSI (TCC) <br>
                                                 &nbsp; &nbsp; &nbsp;- Bloco G - Sala 60: Master Class 2 - Design Science Research (Prof. Mariano Pimentel) <br><br>
                                                 
@@ -31,8 +31,8 @@ export class TerceiroDiaPage {
                                                 &nbsp; &nbsp; &nbsp;- Almoço <br><br>
                                                 
                                                 14:30 - 16:00 <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 6: Trilha Principal (Sessão Técnica 13) <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 4: Trilha Principal (Sessão Técnica 14) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 36: Trilha Principal (Sessão Técnica 13) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 25: Trilha Principal (Sessão Técnica 14) <br>
                                                 &nbsp; &nbsp; &nbsp;- Bloco G - Sala 18: CTDSI/CTCCSI (DSc) <br>
                                                 
                                                 16:00 - 16:30 <br>

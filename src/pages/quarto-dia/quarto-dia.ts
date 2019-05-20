@@ -14,8 +14,8 @@ export class QuartoDiaPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.chamadas = [
       {header: 'Programação do Dia', conteudo: `09:00 - 10:30 <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 6: Trilha Principal (Sessão Técnica 15) <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 4: Trilha Principal (Sessão Técnica 16) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 25: Trilha Principal (Sessão Técnica 15) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 24: Trilha Principal (Sessão Técnica 16) <br>
                                                 &nbsp; &nbsp; &nbsp;- Auditório do Bloco G - Painel do WQPSI <br>
                                                 &nbsp; &nbsp; &nbsp;- Bloco G - Sala 60: FESI <br><br>
                                                 
@@ -23,8 +23,8 @@ export class QuartoDiaPage {
                                                 &nbsp; &nbsp; &nbsp;- Coffe Break <br><br>
                                                 
                                                 11:00 - 12:30 <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 6: Trilha Principal (Sessão Técnica 17) <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 4: Trilha Principal (Sessão Técnica 18) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 25: Trilha Principal (Sessão Técnica 17) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 24: Trilha Principal (Sessão Técnica 18) <br>
                                                 &nbsp; &nbsp; &nbsp;- Auditório do Bloco G - GranDSIBR (SBC) <br>
                                                 &nbsp; &nbsp; &nbsp;- Bloco G - Sala 60: FESI <br><br>
                                                 
@@ -32,8 +32,8 @@ export class QuartoDiaPage {
                                                 &nbsp; &nbsp; &nbsp;- Almoço <br><br>
                                                 
                                                 14:30 - 16:00 <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 6: Trilha Principal (Sessão Técnica 19) <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 4: Trilha Principal (Sessão Técnica 20) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 25: Trilha Principal (Sessão Técnica 19) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 24: Trilha Principal (Sessão Técnica 20) <br>
                                                 &nbsp; &nbsp; &nbsp;- Auditório do Bloco G - Momento com Keynotes <br>
                                                 &nbsp; &nbsp; &nbsp;- Bloco G - Sala 60: FESI <br><br>
                                                 

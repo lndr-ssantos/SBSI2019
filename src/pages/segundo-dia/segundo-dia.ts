@@ -14,37 +14,37 @@ export class SegundoDiaPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.chamadas = [
       {header: 'Programação do dia', conteudo: `09:00 - 10:30 <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 4: Trilha Principal (Sessão Técnica 5) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 26: Trilha Principal (Sessão Técnica 5) <br>
                                                 &nbsp; &nbsp; &nbsp;- Bloco G - Sala 60: Master Class 1 - Fundamentos de SI (Prof. Marcelo Fornazin) <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 18: WTDSI (Sessão 1) <br><br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco F - Sala 30: WTDSI (Sessão 1) <br><br>
                                                 
                                                 10:30 - 11:00 <br>
                                                 &nbsp; &nbsp; &nbsp;- Coffe Break (CoDeSii) <br><br>
                                                 
                                                 11:00 - 12:30 <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 4: Trilha Principal (Sessão Técnica 6) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 26: Trilha Principal (Sessão Técnica 6) <br>
                                                 &nbsp; &nbsp; &nbsp;- Bloco G - Sala 60: Master Class 1 - Fundamentos de SI (Prof. Marcelo Fornazin) <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 18: WTDSI (Sessão 2) <br><br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco F - Sala 30: WTDSI (Sessão 2) <br><br>
                                                 
                                                 12:30 - 14:30 <br>
                                                 &nbsp; &nbsp; &nbsp;- Almoço <br><br>
                                                 
                                                 14:30 - 16:00 <br>
-                                                &nbsp; &nbsp; &nbsp;- Laboratório 1: Minicurso 3 (ECI)<br>
-                                                &nbsp; &nbsp; &nbsp;- Laboratório 2: Minicurso 4 (AMCI)<br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 4: Trilha Principal (Sessão Técnica 7) <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 18: WTDSI (Sessão 3) <br><br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco F - Sala 26: Minicurso 3 (ECI)<br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco F - Sala 29: Minicurso 4 (AMCI)<br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 26: Trilha Principal (Sessão Técnica 7) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco F - Sala 30: WTDSI (Sessão 3) <br><br>
                                                 
                                                 16:00 - 16:30 <br>
                                                 &nbsp; &nbsp; &nbsp;- Coffe Break (CoDeSii) <br><br>
                                                 
                                                 16:30 - 18:00 <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 4: Trilha Principal (Sessão Técnica 8) <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 18: WTDSI (Sessão 4) <br><br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 26: Trilha Principal (Sessão Técnica 8) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco F - Sala 30: WTDSI (Sessão 4) <br><br>
                                                 
                                                 16:30 - 19:00 <br>
-                                                &nbsp; &nbsp; &nbsp;- Laboratório 1: Minicurso 3 (ECI)<br>
-                                                &nbsp; &nbsp; &nbsp;- Laboratório 2: Minicurso 4 (AMCI)<br>`},
+                                                &nbsp; &nbsp; &nbsp;- Bloco F - Sala 26: Minicurso 3 (ECI)<br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco F - Sala 29: Minicurso 4 (AMCI)<br>`},
 
       {header: 'Detalhes das Sessões Técnicas', conteudo: `<b>Sessão Técnica 5 (ST5) - Decision Support Systems (2):</b> <br>
                                                           <b>Chair:</b> Sylvio Barbon Jr. (UEL) <br><br>

@@ -14,39 +14,39 @@ export class PrimeiroDiaPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.chamadas = [
       {header: 'Programação do Dia', conteudo: `09:00 - 10:30 <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 4: EISI (incluindo ferramentas) <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 6: Trilha Principal (Sessão Técnica 1) <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 18: WICSI (Sessão 1) <br><br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 60: EISI (incluindo ferramentas) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 36: Trilha Principal (Sessão Técnica 1) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco F - Sala 30: WICSI (Sessão 1) <br><br>
                                                 
                                                 10:30 - 11:00 <br>
                                                 &nbsp; &nbsp; &nbsp;- Coffe Break (CoDeSii) <br><br>
                                                 
                                                 11:00 - 12:30 <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 4: EISI (incluindo ferramentas) <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 6: Trilha Principal (Sessão Técnica 2) <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 18: WICSI (Sessão 2) <br><br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 60: EISI (incluindo ferramentas) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 36: Trilha Principal (Sessão Técnica 2) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco F - Sala 30: WICSI (Sessão 2) <br><br>
                                                 
                                                 12:30 - 14:30 <br>
                                                 &nbsp; &nbsp; &nbsp;- Almoço <br><br>
                                                 
                                                 14:30 - 16:00 <br>
-                                                &nbsp; &nbsp; &nbsp;- Laboratório 1: Minicurso 1 (TRM)<br>
-                                                &nbsp; &nbsp; &nbsp;- Laboratório 2: Minicurso 2 (SoIS)<br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 4: EISI (incluindo ferramentas) <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 6: Trilha Principal (Sessão Técnica 3) <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 18: WICSI (Sessão 3) <br><br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco F - Sala 26: Minicurso 1 (TRM)<br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco F - Sala 29: Minicurso 2 (SoIS)<br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 60: EISI (incluindo ferramentas) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 36: Trilha Principal (Sessão Técnica 3) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco F - Sala 30: WICSI (Sessão 3) <br><br>
                                                 
                                                 16:00 - 16:30 <br>
                                                 &nbsp; &nbsp; &nbsp;- Coffe Break (CoDeSii) <br><br>
                                                 
                                                 16:30 - 18:00 <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 4: EISI (incluindo ferramentas) <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 6: Trilha Principal (Sessão Técnica 4) <br>
-                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 18: WICSI (Sessão 4) <br><br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 60: EISI (incluindo ferramentas) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco G - Sala 36: Trilha Principal (Sessão Técnica 4) <br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco F - Sala 30: WICSI (Sessão 4) <br><br>
                                                 
                                                 16:30 - 19:00 <br>
-                                                &nbsp; &nbsp; &nbsp;- Laboratório 1: Minicurso 1 (TRM)<br>
-                                                &nbsp; &nbsp; &nbsp;- Laboratório 2: Minicurso 2 (SoIS)<br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco F - Sala 26: Minicurso 1 (TRM)<br>
+                                                &nbsp; &nbsp; &nbsp;- Bloco F - Sala 29: Minicurso 2 (SoIS)<br>
                                                 
                                                 19:00 - 21:00 <br>
                                                 &nbsp; &nbsp; &nbsp;- Auditório Bloco G - Abertura do SBSI 2019 + Apresentação Cultural<br>` },
